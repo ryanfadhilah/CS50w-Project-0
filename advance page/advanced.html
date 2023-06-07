@@ -26,22 +26,22 @@
         <p>Find pages with...</p>
     </div>
 
-    <form action="">
-        <div class="left">
-            <label for="all">all these words: </label>
-            <label for="exact">this exact word or phase: </label>
-            <label for="any">any of these words: </label>
-            <label for="none">none of these words: </label>
-            <div class="advance-button"></div>
-        </div>
+    <form action="https://www.google.com/search">
+        <label for="all">all these words: </label>
+        <input type="text" id="all" name="as_q">
 
-        <div class="right">
-            <input type="text" id="all">
-            <input type="text" id="exact">
-            <input type="text" id="any">
-            <input type="text" id="none">
-            <div class="advance-button"><input type="button" value="Advance Search"></div>
-        </div>
+        <label for="exact">this exact word or phase: </label>
+        <input type="text" id="exact" name="as_epq">
+
+        <label for="any">any of these words: </label>
+        <input type="text" id="any" name="as_oq">
+
+        <label for="none">none of these words: </label>
+        <input type="text" id="none" name="as_eq">
+        <div class="advance-button"></div>
+
+        <div class="advance-button"><input type="submit" value="Advance Search"></div>
+
     </form>
 
 </body>
