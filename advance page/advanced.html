@@ -24,23 +24,31 @@
 
     <div class="title">
         <p>Find pages with...</p>
+        <p></p>
+        <p>To do this in the search box.</p>
     </div>
 
     <form action="https://www.google.com/search">
         <label for="all">all these words: </label>
         <input type="text" id="all" name="as_q">
+        <p>Type the important words: <span>tri-colour rat terrier</span></p>
 
         <label for="exact">this exact word or phase: </label>
         <input type="text" id="exact" name="as_epq">
+        <p>Put exact words in quotes: <span>"rat terrier"</span></p>
 
         <label for="any">any of these words: </label>
         <input type="text" id="any" name="as_oq">
+        <p>Type OR between all the words you want: <span>miniature OR standard</span></p>
+
 
         <label for="none">none of these words: </label>
         <input type="text" id="none" name="as_eq">
-        <div class="advance-button"></div>
+        <p>Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></p>
 
+        <div class="advance-button"></div>
         <div class="advance-button"><input type="submit" value="Advance Search"></div>
+        <div class="advance-button"></div>
 
     </form>
 

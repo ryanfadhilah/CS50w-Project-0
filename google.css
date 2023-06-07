@@ -1,0 +1,43 @@
+.google {
+    display: flex;
+}
+
+.google>h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    transition: all ease-in-out .2s;
+}
+
+.google>h1:nth-child(1) {
+    color: #3369e8;
+}
+
+
+.google>h1:nth-child(2) {
+    color: #d50f25;
+}
+
+.google>h1:nth-child(3) {
+    color: #eeb221;
+}
+
+.google>h1:nth-child(4) {
+    color: #3369e8;
+}
+
+.google>h1:nth-child(5) {
+    color: #009925;
+}
+
+.google>h1:nth-child(6) {
+    color: #d50f25;
+}
+
+.google>h1:nth-child(1):hover,
+.google>h1:nth-child(2):hover,
+.google>h1:nth-child(3):hover,
+.google>h1:nth-child(4):hover,
+.google>h1:nth-child(5):hover,
+.google>h1:nth-child(6):hover {
+    color: black;
+}
